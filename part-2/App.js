@@ -3,8 +3,10 @@ function App() {
         <div>
             <Tweet>
                 name = "Matt Lane"
-                username =
-            </Tweet>
+                username = "mmmaattttt"
+                date = {new Date().toDateString()}
+                message= " This app will disrupt everything!!"
+            </>
         </div>
     )
 }
