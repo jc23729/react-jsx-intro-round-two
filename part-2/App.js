@@ -6,7 +6,7 @@ function App() {
                 username = "mmmaattttt"
                 date = {new Date().toDateString()}
                 message= " This app will disrupt everything!!"
-            </>
+            </Tweet>
         </div>
     )
 }
