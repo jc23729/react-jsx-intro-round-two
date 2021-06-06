@@ -1,7 +1,7 @@
 function Tweets(props) {
   return (
     <div className="tweet">
-      <h1>This is just a test</h1>
+      <h1>{props.name}</h1>
     </div>
   )
 }

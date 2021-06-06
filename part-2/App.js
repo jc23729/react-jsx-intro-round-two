@@ -1,7 +1,9 @@
 function App() {
   return (
     <div>
-    <Tweets />
+      <Tweets
+      name = "Juan Cruz"
+      />
     </div>
   );
 }
