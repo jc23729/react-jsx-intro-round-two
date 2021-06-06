@@ -1,15 +1,12 @@
-function Tweets(props) {
+function Tweet(props) {
   return (
     <div className="tweet">
       <span>{props.username}</span>
       <span>{props.date}</span>
       <p>{props.message}</p>
-
     </div>
-  )
+  );
 }
-
-
 
 // function Tweet(props) {
 //   return (
