@@ -2,7 +2,9 @@ function App() {
   return (
     <div>
       <Tweets
-      name = "Juan Cruz"
+        name="Juan Cruz"
+        username = "jc7891"
+        
       />
     </div>
   );

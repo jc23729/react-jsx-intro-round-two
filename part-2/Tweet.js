@@ -1,7 +1,10 @@
 function Tweets(props) {
   return (
     <div className="tweet">
-      <h1>{props.name}</h1>
+      <span>{props.username}</span>
+      <span>{props.date}</span>
+      <p>{props.message}</p>
+
     </div>
   )
 }
